@@ -1,0 +1,89 @@
+.nagadb__stats {
+  display: flex; 
+  flex-direction: row;
+
+  
+}
+
+.nagadb__stats-content {
+  flex: 1; 
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+ 
+  
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #B1B1B1;
+
+}
+
+.nagadb__stats-content__stat {
+  padding: 0 6rem;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+  font-family: var(--font-family);
+
+  cursor: pointer;
+}
+.nagadb__stats-content__stat a {
+  display: inline-block;
+  position: relative;
+  color: black;
+  text-decoration: none;
+}
+.nagadb__stats-content__stat a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  border-radius: 5px;
+  height: .1em;
+  bottom: 0;
+  left: 0;
+  background: var(--naga-red);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.nagadb__stats-content__stat a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nagadb__stats-content__stat h2 {
+  font-size: 29px; 
+  font-weight: 500;
+}
+.nagadb__stats-content__stat p {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.53px;
+}
+
+@media screen and (max-width: 900px) {
+  .nagadb__stats-content__stat {
+    padding: 0 4rem;
+  }
+
+  .nagadb__stats-content__stat h2 {
+    font-size: 20px; 
+  }
+  .nagadb__stats-content__stat p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nagadb__stats-content__stat {
+    padding: 0 2rem;
+  }
+
+  .nagadb__stats-content__stat h2 {
+    font-size: 16px; 
+  }
+  .nagadb__stats-content__stat p {
+    font-size: 10px;
+  }
+}

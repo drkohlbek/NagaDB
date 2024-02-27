@@ -1,0 +1,16 @@
+.nagadb__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  padding: 2rem 0rem;
+}
+
+.nagadb__links__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  
+}

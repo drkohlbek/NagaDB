@@ -1,0 +1,170 @@
+.nagadb__buttons-container__button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: var(--font-family);
+
+  margin: 1rem; 
+
+  width: 360px;
+  height: 349px;
+  border-radius: 29px; 
+  border: 1px solid black;
+  transition: 1s;
+  cursor: pointer;
+}
+
+/* Hover animation */ 
+.hovered{
+  display: none; 
+  transition: 1s;
+}
+
+.nagadb__buttons-container__button:hover {
+  background: rgba(189, 9, 9, 0.63); 
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.51);
+  transition: 1s; 
+  
+}
+
+.nagadb__buttons-container__button:hover .hovered {
+  margin-bottom: 5px;
+  display: flex;
+  transition: 1s; 
+}
+
+.nagadb__buttons-container__button:hover .notHovered {
+  display: none; 
+  transition: 1s; 
+}
+
+/* Inner button element sizing */ 
+.nagadb__buttons-container__button-image {
+  padding: 0rem 2rem .5rem 2rem;
+}
+
+
+.nagadb__buttons-container__button-title {
+  padding: 1rem 2rem .5rem 2rem;
+}
+
+.nagadb__buttons-container__button-title h1 {
+  font-size: 24px; 
+  font-weight: 600;
+}
+
+.nagadb__buttons-container__button-text {
+  padding: 0 2rem 0 2rem; 
+}
+
+.nagadb__buttons-container__button-text p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) {
+  .nagadb__buttons-container__button {
+    width: 300.172px;
+    height: 291px; 
+  }
+
+  .nagadb__buttons-container__button-image {
+    scale: .9;
+
+  }
+  
+  .nagadb__buttons-container__button-title {
+    padding: auto;
+  }
+  
+  .nagadb__buttons-container__button-title h1 {
+    font-size: 20px; 
+    font-weight: 600;
+  }
+  
+  .nagadb__buttons-container__button-text {
+    padding: auto; 
+  }
+  
+  .nagadb__buttons-container__button-text p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .nagadb__buttons-container__button {
+    width: 265px;
+    height: 256.903px; 
+  }
+
+  .nagadb__buttons-container__button-image {
+    scale: .8;
+
+  }
+  
+  .nagadb__buttons-container__button-title {
+    padding: auto;
+  }
+  
+  .nagadb__buttons-container__button-title h1 {
+    font-size: 18px; 
+    font-weight: 600;
+  }
+  
+  .nagadb__buttons-container__button-text {
+    padding: auto; 
+  }
+  
+  .nagadb__buttons-container__button-text p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nagadb__buttons-container__button {
+    width: 232.092px;
+    height: 225px; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nagadb__buttons-container__button-image img{
+    scale: .8;
+    margin-bottom: -20px;
+  }
+  
+  .nagadb__buttons-container__button-title {
+    padding-top: 0rem;
+  }
+  
+  .nagadb__buttons-container__button-title h1 {
+    font-size: 15px; 
+    font-weight: 600;
+  }
+  
+  .nagadb__buttons-container__button-text {
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+.nagadb__buttons-container__button {
+  width: 115.53px;
+  height: 112px;
+
+  margin: .1rem;
+}
+
+.nagadb__buttons-container__button-title {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+.nagadb__buttons-container__button-title h1 {
+  font-size: 12px; 
+  font-weight: 600;
+}
+}

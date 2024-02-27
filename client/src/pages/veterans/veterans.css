@@ -1,0 +1,19 @@
+.nagadb__table-container {
+  padding: 0rem 4rem; 
+
+}
+
+.nagadb__table-container__title {
+  font-family: var(--font-family);
+  width: 100%;
+  max-width: 1800px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.nagadb__table-container__title h1 {
+  max-width: 1800px;
+  font-family: var(--font-family);
+}
