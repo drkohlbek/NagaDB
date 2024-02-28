@@ -11,33 +11,20 @@
   height: 349px;
   border-radius: 29px; 
   border: 1px solid black;
-  transition: 1s;
+  transition: .6s;
   cursor: pointer;
 }
 
-/* Hover animation */ 
-.hovered{
-  display: none; 
-  transition: 1s;
-}
+
 
 .nagadb__buttons-container__button:hover {
-  background: rgba(189, 9, 9, 0.63); 
+  background: rgba(197, 197, 197, 0.63); 
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.51);
-  transition: 1s; 
+  transition: .6s ease; 
   
 }
 
-.nagadb__buttons-container__button:hover .hovered {
-  margin-bottom: 5px;
-  display: flex;
-  transition: 1s; 
-}
 
-.nagadb__buttons-container__button:hover .notHovered {
-  display: none; 
-  transition: 1s; 
-}
 
 /* Inner button element sizing */ 
 .nagadb__buttons-container__button-image {

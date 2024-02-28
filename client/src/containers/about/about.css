@@ -9,7 +9,8 @@
   margin-right: auto; 
   background-color: var(--naga-red);
 
-  filter: drop-shadow(0px 4px 4px black); 
+  /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);*/
+  filter: drop-shadow(0px 2px 4px black); 
 }
 
 .nagadb__about-feature {
