@@ -6,7 +6,10 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   background: var(--color-bg);
+  min-height: calc(100vh - 42px);
 }
 
 a {

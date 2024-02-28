@@ -1,11 +1,13 @@
 .nagdb__footer{
   display: flex;
+  position: relative; 
+  left: 0;
+  bottom: 0;
 }
 
 .nagadb__footer-text {
   display: flex;
   justify-content: center;
-  margin-top: 80px; 
   align-items: center;
   border-top: solid;
   padding: .5rem;
