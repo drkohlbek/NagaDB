@@ -1,7 +1,10 @@
 .nagadb__header {
   display: flex;
   flex-direction: row;
+}
 
+.nagadb__header.section__padding {
+  padding-left: 20rem;
 }
 
 .nagadb__header-content {
@@ -68,6 +71,12 @@
 .nagadb__header-image {
   scale: .8;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1700px){
+  .nagadb__header.section__padding { 
+    padding: 3rem 6rem;
+  }
 }
 
 @media screen and (max-width: 1050px) {
