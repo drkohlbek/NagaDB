@@ -12,6 +12,10 @@ import infinityHover from '../../assets/infinityHover.png';
 const Links = () => {
 
   return (
+    <>
+    <div className="nagadb__links-getStarted">
+      <h1>Get Started</h1>
+    </div>
     <div className="nagadb__links">
       <div className="nagadb__links__buttons">
         <Button title="Veterans" text="Names, locations, and stories - all in one place. Access all the information you need with one click." image={person} imageHover={personHover} id="veterans" />
@@ -19,6 +23,7 @@ const Links = () => {
         <Button title="Project Naga®" text="View our other initiatives and learn more about our mission to honor veterans and their history at projectnaga.org." image={infinity} imageHover={infinityHover} id="naga" />
       </div>
     </div>
+    </>
   )
 }
 

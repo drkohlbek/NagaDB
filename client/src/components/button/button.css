@@ -116,6 +116,7 @@
     height: 225px; 
     justify-content: center;
     align-items: center;
+    margin: .5rem;
   }
 
   .nagadb__buttons-container__button-image img{
@@ -138,7 +139,7 @@
   
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
 .nagadb__buttons-container__button {
   width: 115.53px;
   height: 112px;
