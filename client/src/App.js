@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react' 
-import { Home, Veterans, Cemeteries, SingleVet, SingleCem } from './pages';
+import { Home, Veterans, Cemeteries, SingleVet, SingleCem, NotFound } from './pages';
 import { Navbar } from './components';
 import { Footer } from './containers';
 import './App.css'; 
@@ -57,6 +57,7 @@ const App = () => {
           <Route path="/cemeteries" element={<Cemeteries vetsArray={veterans} cemsArray={cemeteries} />} />
           <Route path="/veterans/:id" element={<SingleVet vetsArray={veterans} cemsArray={cemeteries} />} />
           <Route path='/cemeteries/:id' element={<SingleCem vetsArray={veterans} cemsArray={cemeteries} />} />
+          <Route path="*" element={<NotFound />} />
           <Route path='/naga' Component={() => {
             <Navigate to="/" />
             window.location.href = 'https://www.projectnaga.org';

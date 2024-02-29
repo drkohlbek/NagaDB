@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { useReactToPrint } from 'react-to-print';
+import NotFound from '../NotFound/NotFound';
 import "./singleCem.css"
 
 const SingleCem = ({ vetsArray, cemsArray}) => {
@@ -42,7 +43,9 @@ const SingleCem = ({ vetsArray, cemsArray}) => {
   }
 
   return (
-    <div>Cemetery not found</div>
+    <>
+      <NotFound />
+    </>
   )
 }
 

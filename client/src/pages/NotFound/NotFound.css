@@ -1,0 +1,11 @@
+.nagadb__notFound-container { 
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+}
+
+.nagadb__notFound-container h1 {
+  font-size: 50px;
+  border-bottom: solid;
+  border-color: var(--naga-red);
+}

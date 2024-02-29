@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import "./singleVet.css"
 import { useParams, Link } from 'react-router-dom'; 
 import { useReactToPrint } from 'react-to-print'; 
+import NotFound from '../NotFound/NotFound';
 
 
 const SingleVet = ({ vetsArray, cemsArray }) => {
@@ -57,7 +58,9 @@ const SingleVet = ({ vetsArray, cemsArray }) => {
   }
 
   return (
-    <div>Vet Not Found</div>
+    <>
+      <NotFound />
+    </>
   )
 }
 
