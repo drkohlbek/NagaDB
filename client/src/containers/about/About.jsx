@@ -1,6 +1,10 @@
 import React from "react";
 import "./about.css";
 import { Feature } from "../../components";
+import headstonePhoto from '../../assets/FLOWERS-FOR-EVA-47.jpg';
+import displayPhoto from '../../assets/FLOWERS-FOR-EVA-DISPLAY.jpg';
+
+// client/src/assets/FLOWERS-FOR-EVA-47.jpg
 
 const About = () => {
   return (
@@ -20,11 +24,16 @@ const About = () => {
               database housing unclaimed veterans' records.
             </p>
           </div>
-          <div className="nagadb__about-what-image"></div>
+          <div className="nagadb__about-what-image">
+            <img src={headstonePhoto} alt="headstones" />
+          </div>
         </div>
       </div>
       <div className="nagadb__about-mission section__padding">
         <div className="nagadb__about-mission__content">
+          <div className="nagadb__about-mission-image">
+            <img src={displayPhoto} alt="Flowers infront of headstones" />
+          </div>
           <div className="nagadb__about-mission-text">
             <h1>Our Misson</h1>
             <p>
@@ -39,7 +48,6 @@ const About = () => {
               and respect.
             </p>
           </div>
-          <div className="nagadb__about-mission-image"></div>
         </div>
       </div>
       <div className="nagadb__about-why section__padding">
