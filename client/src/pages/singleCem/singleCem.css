@@ -4,12 +4,21 @@
   font-family: var(--font-family);
 }
 
+.nagadb__singleCem-container a {
+  color: var(--naga-red);
+  text-decoration: underline;
+}
+
 .nagadb__singleCem-container__title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   border-bottom: solid;
   border-color: var(--naga-red);
+}
+
+.nagadb__singleCem-container__title h1 {
+  flex: 1;
 }
 
 .nagadb__singleCem-container__info {
@@ -26,6 +35,9 @@
   font-size: 25px;
   font-weight: 500;
   margin: .5rem;
+  overflow-wrap: break-word; 
+  word-wrap: break-word; 
+  word-break: break-word; 
 }
 
 .nagadb__singleCem-container__cemeteryInfo {
@@ -33,7 +45,7 @@
 }
 .nagadb__singleCem-container__cemeteryInfo button {
   width: 150px;
-  height: 35px;
+  height: 50px;
 
   background-color: var(--naga-red);
   color: white;
@@ -77,7 +89,7 @@
 
 .nagadb__print {
   width: 150px;
-  height: 35px;
+  height: 50px;
   margin: .5rem;
 
   background-color: var(--naga-red);
@@ -99,4 +111,10 @@
   .hidden_name {
     display: flex;
   }
+}
+
+@media screen and (max-width: 500px) {
+  .nagadb__singleCem-container__info h2 {
+    font-size: 22px;
+  } 
 }
