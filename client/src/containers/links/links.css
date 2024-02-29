@@ -14,3 +14,15 @@
 
   
 }
+
+.nagadb__links-getStarted {
+  padding: 2rem 0 .5rem 0;
+  font-family: var(--font-family);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid;
+  border-color: var(--naga-red);
+  width: 50%;
+
+}
