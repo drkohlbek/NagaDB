@@ -18,6 +18,9 @@
   font-family: var(--font-family);
   font-size: 70px;
   font-weight: 700;
+  background: linear-gradient(103deg, rgba(189,9,9,1) 33%, rgba(252,176,69,1) 100%); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;
 }
 
 .nagadb__header-content p {
