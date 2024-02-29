@@ -1,38 +1,72 @@
 .nagadb__about { 
   display: flex;
   flex-direction: column;
-  
+  font-family: var(--font-family);
 
-  margin: 4rem 6rem; 
-  max-width: 1160px;
-  margin-left: auto;
-  margin-right: auto; 
+}
+
+.nagadb__about-what {
   background-color: var(--naga-red);
-
-  /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);*/
-  filter: drop-shadow(0px 2px 4px black); 
+  color: white;
+  min-height: 427px;
+}
+.nagadb__about-what__content {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nagadb__about-what-text { 
+  width: 50%;
+  text-align: center;
+} 
+.nagadb__about-what-text h1 {
+  margin-bottom: 10px;
+}
+.nagadb__about-what-text p {
+  font-size: 18px;
 }
 
-.nagadb__about-feature {
+.nagadb__about-mission {
+  min-height: 427px;
+}
+.nagadb__about-mission__content {
   display: flex;
-}
-
-.nagadb__about-feature .nagadb__features-container__feature {
-  margin: 0;
-}
-
-.nagadb__about-feature .nagadb__features-container__feature-text {
-  max-width: 700px;
-}
-
-.nagadb__about-container {
-  display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
-
-  margin-top: 2rem;
+  justify-content: flex-end;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
+.nagadb__about-mission-text {
+  width: 50%;
+  text-align: center;
+}
+.nagadb__about-mission-text h1 {
+  margin-bottom: 10px;
+}
+.nagadb__about-mission-text p {
+  font-size: 18px;
+}
+
+.nagadb__about-why {
+  background-color: var(--naga-red);
+  color: white;
+
+}
+.nagadb__about-why__content {
+  max-width: 1600px;
+}
+.nagadb__about-why-text {
+  text-align: center;
+}
+.nagadb__about-why-text h1 {
+  margin-bottom: 10px 
+}
+.nagadb__about-why-text p {
+  font-size: 18px;
+}
+
+
 
 /* Customizing feature component as per needs */
 .nagadb__about-container .nagadb__features-container__feature {
