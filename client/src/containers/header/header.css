@@ -21,7 +21,7 @@
   font-family: var(--font-family);
   font-size: 70px;
   font-weight: 700;
-  background: linear-gradient(103deg, rgba(189,9,9,1) 33%, rgba(252,176,69,1) 100%); 
+  background: linear-gradient(0deg, rgb(37, 37, 37) 0%, rgb(255, 3, 16) 100%); 
   -webkit-text-fill-color: transparent; 
   -webkit-background-clip: text;
 }

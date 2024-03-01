@@ -1,6 +1,7 @@
 .nagadb__stats {
   display: flex; 
   flex-direction: row;
+  background-color: white;
 
   
 }
@@ -16,7 +17,7 @@
   
   border-top: solid;
   border-bottom: solid;
-  border-color: #B1B1B1;
+  border-color: black;
 
 }
 
