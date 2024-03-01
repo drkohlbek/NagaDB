@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 export const columnDef = [
   {
+    accessorKey: 'name', 
     id: 'name', 
     header: "Cemetery", 
     cell: (info) => {

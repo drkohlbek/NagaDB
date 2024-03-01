@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 
 export const columnDef = [
   {
+    accessorKey: 'firstName', 
     id: 'firstName', 
     header: "First Name", 
     cell: (info) => {
@@ -11,6 +12,7 @@ export const columnDef = [
     }
   }, 
   {
+    accessorKey: 'middleName', 
     id: 'middleName', 
     header: 'Middle Name', 
     cell: (info) => {
@@ -20,6 +22,7 @@ export const columnDef = [
     }
   },
   {
+    accessorKey: 'lastName', 
     id: 'lastName', 
     header: 'Last Name', 
     cell: (info) => {
@@ -49,6 +52,7 @@ export const columnDef = [
     header: 'DOD', 
   },
   {
+    accessorKey: 'cemetery.name', 
     id: 'cemetery', 
     header: 'Cemetery', 
     cell: (info) => {
