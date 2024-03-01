@@ -15,7 +15,9 @@ const Stats = ({ vets, cems }) => {
         <div className="nagadb__stats-content__stat">
           <Link to="/cemeteries">
             <h2>{cems}</h2>
-            <p>Cemeteries</p>
+       
+              <p>Cemeteries</p>  
+            
             <p>across the U.S. ➞</p>
           </Link>
         </div>

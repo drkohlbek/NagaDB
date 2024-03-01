@@ -32,10 +32,10 @@ const Navbar = () => {
           {toggleMenu && (
             <div className="nagadb__navbar-menu_container shadow-pop-tr">
               <div className="nagadb__navbar-menu_container-links">
-                <p><Link to="/">Home</Link></p>
-                <p><Link to="/veterans">Veterans</Link></p>
-                <p><Link to="/cemeteries">Cemeteries</Link></p>
-                <p><a href="https://www.projectnaga.org/get-involved-1" target="_blank" rel="noopener noreferrer">Contact</a></p>
+                <p className='underline'><Link to="/">Home</Link></p>
+                <p className='underline'><Link to="/veterans">Veterans</Link></p>
+                <p className='underline'><Link to="/cemeteries">Cemeteries</Link></p>
+                <p className='underline'><a href="https://www.projectnaga.org/get-involved-1" target="_blank" rel="noopener noreferrer">Contact</a></p>
               </div>
               <div className="nagadb__navbar-menu_container-links-site">
                 <a href="https://www.projectnaga.org" target="_blank" rel="noopener noreferrer">

@@ -118,14 +118,20 @@
   border-radius: 5px;
 }
 
-.nagadb__navbar-menu_container p {
-  margin: 1rem 0; 
+.underline{
+  display: flex;
+  justify-content: flex-end;
+
+}
+.underline a {
+  margin-bottom: 1rem;
+  width: fit-content;
   display: block;
   position: relative;
   color: black;
   text-decoration: none;
 }
-.nagadb__navbar-menu_container p::after {
+.underline a::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -138,7 +144,7 @@
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-.nagadb__navbar-menu_container p:hover::after {
+.underline a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }

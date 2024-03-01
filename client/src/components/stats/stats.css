@@ -29,13 +29,13 @@
 
   cursor: pointer;
 }
-.nagadb__stats-content__stat a {
-  display: inline-block;
+.nagadb__stats-content__stat p {
+  display: block;
   position: relative;
   color: black;
   text-decoration: none;
 }
-.nagadb__stats-content__stat a::after {
+.nagadb__stats-content__stat p::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -48,7 +48,7 @@
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-.nagadb__stats-content__stat a:hover::after {
+.nagadb__stats-content__stat:hover p::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
