@@ -150,9 +150,12 @@
 @media screen and (max-width: 1450px) {
   .nagadb__about-what { 
     min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .nagadb__about-what-text {
-    width: 464px;
+    width: 520px;
     height: 310px;
   }
   .nagadb__about-what-text h1 {
@@ -161,17 +164,19 @@
   .nagadb__about-what-text p {
     font-size: 16px;
   }
-  .nagadb__about-what-image { 
-   width: 464px;
+  .nagadb__about-what-image img{ 
+
+   width: 520px;
    height: 310px;
-   margin-bottom: 15px;
+
   }
 
   .nagadb__about-mission {
+    display: flex;
     min-height: 400px;
   }
   .nagadb__about-mission-text {
-    width: 480px;
+    width: 520px;
     height: 320px;
   }
   .nagadb__about-mission-text h1 {
@@ -181,14 +186,17 @@
     font-size: 16px
   }
   .nagadb__about-mission-image {
-    width: 464px;
-    height: 320px;
+    
     justify-content: flex-end;
     margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
+
   .nagadb__about-mission-image img{
-    width: auto;
-    height: auto;
+    width: 520px;
+    height: 320px;
+   
   }
 
   .nagadb__about-why-text h1 {
@@ -200,17 +208,23 @@
 
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1250px) {
   .nagadb__about-what.section__padding {
     padding: 2rem 2rem;
+    display: flex;
+  }
+  .nagadb__about-what {
+
   }
   .nagadb__about-what__content {
     flex-direction: column;
     align-items: center;
+    height: 600px;
+    
   }
   .nagadb__about-what-text {
     width: 581px;
-    height: 350px;
+    height: 300px;
     order: 2;
   }
   .nagadb__about-what-image {
@@ -219,6 +233,7 @@
     width: 581px;
     height: 350px;
     margin-left: 0;
+    margin-bottom: 2rem;
   }
   .nagadb__about-what-image img {
     width: 581px;
@@ -233,12 +248,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    height: 620px;
   }
   .nagadb__about-mission-image {
     order: 1;
     padding: 0;
     width: 581px;
     height: 350px;
+    margin-bottom: 2rem;
   }
   .nagadb__about-mission-image img {
     width: 581px;
@@ -253,63 +271,142 @@
 }
 
 @media screen and (max-width: 650px) {
+  .nagadb__about-what {
+    height: 700px;
+  }
+  .nagadb__about-what__content {
+    height: 600px;
+    margin-top: -2rem;
+  }
+  .nagadb__about-mission {
+    height: 700px;
+  }
+  .nagadb__about-mission__content {
+    height: 650px
+  }
+
+  .nagadb__about-what-image {
+    margin-bottom: -.5rem;
+  }
   .nagadb__about-what-image img {
     scale: .8;
   }
   
+  .nagadb__about-mission-image {
+    padding: 0;
+    margin-bottom: -3rem;
+  }
   .nagadb__about-mission-image img {
     scale: .8; 
   }
 
   .nagadb__about-what-text {
     width: 464.8px;
-    height: 240px;
+    
+    
   }
   .nagadb__about-what-text h1 {
     font-size: 20px;
+    margin-top: 1rem;
+  }
+  .nagadb__about-what-text p {
+    margin: 10px;
+  }
+
+  .nagadb__about-mission {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
   }
   .nagadb__about-mission-text {
     width: 464.8px;
     
+    height: 500px;
   }
   .nagadb__about-mission-text h1 {
     font-size: 20px;
-    margin-top: .5rem;
+    margin-top: 1rem;
   }
 
   .nagadb__about-why-text h1 {
     font-size: 22px;
+    margin-top: 1rem;
   }
   .nagadb__about-why-text p {
     font-size: 16px;
+    margin: 10px;
   }
  
 }
 @media screen and (max-width: 450px) {
   .nagadb__about-what-image {
-    margin-top: -40px; 
-    margin-bottom: -25px;
+    margin-bottom: 2rem;
+    flex: 0; 
+    margin-top: -35px;
+    align-items: center;
+    justify-content: center;
   }
   .nagadb__about-what-image img {
-    scale: .6;
-  }
-  .nagadb__about-what-text {
-    width: auto;
+    width: 378px;
+    height: 195px;
+    scale: 1;
   }
 
-  .nagadb__about-mission-image {
-    margin-top: -40px;
-    margin-bottom: -25px;
+  .nagadb__about-what {
+    height: 700px;
   }
-  .nagadb__about-mission-image { 
-    scale: .79;
+  .nagadb__about-what__content {
+   
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .nagadb__about-what-text {
+    flex: 0;
+    height: 500px;
+    width: 378px;
+  }
+  .nagadb__about-what-text p {
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+
+  .nagadb__about-mission {
+    height: 700px;
+  }
+  .nagadb__about-mission__content {
+    padding: 2.5rem;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+  .nagadb__about-mission-image {
+    flex: 0; 
+    width: 378px;
+    height: 195px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+  }
+  .nagadb__about-mission-image img {
+    width: 378px;
+    height: 195px;
+    scale: 1;
   }
   .nagadb__about-mission-text {
-    width: auto;
+    flex: 0;
+    height: 450px;
+    width: 378px;
+    margin-bottom: 2rem;
+  }
+  .nagadb__about-mission-text p{
+    margin: 10px;
   }
 
   .nagadb__about-why{
-    height: 500px;
+    height: 400px;
   }
  
 }
