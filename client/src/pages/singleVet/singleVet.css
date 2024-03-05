@@ -1,4 +1,5 @@
-.nagadb__singleVet-container { 
+.nagadb__singleVet-container.section__padding { 
+
   display: flex;
   flex-direction: column;
   font-family: var(--font-family);
