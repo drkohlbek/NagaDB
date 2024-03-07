@@ -27,7 +27,7 @@ const VetTable = ({ vetsArray, cemsArray }) => {
     content: () => tableP.current,
   }); 
 
-  const finalData = useMemo(() => cemsArray, []);
+  const finalData = useMemo(() => cemsArray, [cemsArray]);
   const finalColumnDef = useMemo(() => columnDef, []);
 
   const [sorting, setSorting] = useState([]);

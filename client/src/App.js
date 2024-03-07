@@ -15,6 +15,7 @@ const App = () => {
   const fetchVets = async () => {
     try{
       const response = await axios.get(`${process.env.REACT_APP_API}/api/vets`);
+      setLoading(false)
       setVeterans(response.data); 
     } catch (error) {
       console.log(error); 
@@ -29,20 +30,20 @@ const App = () => {
     } catch (error) {
       console.log(error); 
     }
+    
   }
 
   useEffect(() => {
-    
-
-    fetchVets(); 
+  
+    fetchVets();
     fetchCems(); 
 
   }, [])
 
 
-  // if(isLoading){ 
-  //   return <div className='App'>Loading...</div>
-  // }
+  if(isLoading){ 
+    return <div className='App'></div>
+  }
  
 
   return (
@@ -53,7 +54,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home vets={veterans.length} cems={cemeteries.length} />} />
-          <Route path="/veterans" element={<Veterans vetsArray={veterans} cemsArray={cemeteries} />} />
+          <Route path="/veterans" element={<Veterans vetsArray={veterans.length > 0 ? veterans : []} cemsArray={cemeteries} />} />
           <Route path="/cemeteries" element={<Cemeteries vetsArray={veterans} cemsArray={cemeteries} />} />
           <Route path="/veterans/:id" element={<SingleVet vetsArray={veterans} cemsArray={cemeteries} />} />
           <Route path='/cemeteries/:id' element={<SingleCem vetsArray={veterans} cemsArray={cemeteries} />} />
