@@ -26,10 +26,10 @@ NagaDB is an open-source database of unclaimed veterans, utilizing the MERN stac
 - <b><a href="https://www.godaddy.com/help/what-is-dns-665">Godaddy DNS</a>:</b> domain name and pointing traffic to VPS<br/>
 - <b><a href="https://www.nginx.com/">Nginx</a></b> web server to distribute traffic <br/>
 
-<h2>Image Analysis Data Flow</h2>
+<h2>Data Flow</h2>
 
 <p align="center">
-
+<img src="https://github.com/drkohlbek/NagaDB/blob/main/images/DataFlow.jpeg?raw=true" height="65%" width="65%">
 </p>
 
 
