@@ -7,4 +7,4 @@ NagaDB is an open-source database of unclaimed veterans, utilizing the MERN stac
 <br />
 <br /> 
 
-<img src="https://github.com/drkohlbek/NagaDB/blob/main/images/Screen%20Shot%202024-04-28%20at%202.25.13%20PM.png?raw=true" alt="Site Screenshot>
+<img src="https://github.com/drkohlbek/NagaDB/blob/main/images/Screen%20Shot%202024-04-28%20at%202.25.13%20PM.png?raw=true" alt="Site Screenshot/>
