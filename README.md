@@ -1,6 +1,6 @@
 <h1>NagDB</h1>
 <b>The World's First Unclaimed-Veterans Database</b> <br/>
-<a href="http://projectnaga.net">Live Demo</a><br/>
+<a href="https://nagadb.mr-alfonso.com">Live Demo</a><br/>
 <a href="projectnaga.org">Video Demonstration (coming soon)</a>
 
 
